@@ -1,0 +1,87 @@
+p {
+  line-height: 30px;
+  font-family: Inter;
+  font-weight: 400;
+  color: #FFFFFF;
+  margin-top: 2px;
+  font-size: 18px;
+}
+
+#home-div {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#about-div {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+body {
+  background-color: #000; /* Black background */
+  color: #fff; /* White text for better contrast */
+  margin: 0; /* Remove default margin */
+  font-family: Inter, sans-serif; /* Ensure consistent font */
+}
+
+#text-div {
+  width: 400px;
+  margin-right: 100px
+}
+
+#about-text-div {
+  width: 400px;
+  margin-right: 100px
+}
+
+#experiences-div {
+  width: 400px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.home-image {
+  height: 400px;
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-size: 24px;
+}
